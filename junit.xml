@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="4" failures="2" time="4.918">
-  <testsuite name="rectangleArea" errors="0" failures="2" skipped="0" timestamp="2020-04-12T18:44:24" time="3.069" tests="4">
+<testsuites name="jest tests" tests="4" failures="1" time="4.446">
+  <testsuite name="rectangleArea" errors="0" failures="1" skipped="0" timestamp="2020-04-12T18:59:43" time="2.684" tests="4">
     <testcase classname="rectangleArea returns the correct area" name="rectangleArea returns the correct area" time="0.002">
     </testcase>
-    <testcase classname="rectangleArea this will fail" name="rectangleArea this will fail" time="0.002">
+    <testcase classname="rectangleArea this will fail" name="rectangleArea this will fail" time="0.001">
       <failure>Error: Jest: `it` and `test` must return either a Promise or undefined.
     at Object.asyncJestTest (E:\ghosteacher\circleci\math\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:121:11)
     at E:\ghosteacher\circleci\math\node_modules\jest-jasmine2\build\queueRunner.js:43:12
@@ -12,18 +12,7 @@
     at E:\ghosteacher\circleci\math\node_modules\jest-jasmine2\build\queueRunner.js:73:41
     at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
     </testcase>
-    <testcase classname="circleArea returns the correct area" name="circleArea returns the correct area" time="0.003">
-      <failure>Error: expect(received).toBe(expected) // Object.is equality
-
-Expected: 28.27
-Received: 28.274333882308138
-    at Object.&lt;anonymous&gt; (E:\ghosteacher\circleci\math\__tests__\math.test.js:15:31)
-    at Object.asyncJestTest (E:\ghosteacher\circleci\math\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:100:37)
-    at E:\ghosteacher\circleci\math\node_modules\jest-jasmine2\build\queueRunner.js:43:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (E:\ghosteacher\circleci\math\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
-    at E:\ghosteacher\circleci\math\node_modules\jest-jasmine2\build\queueRunner.js:73:41
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    <testcase classname="circleArea returns the correct area" name="circleArea returns the correct area" time="0.001">
     </testcase>
     <testcase classname="circleArea does not return strings" name="circleArea does not return strings" time="0">
     </testcase>

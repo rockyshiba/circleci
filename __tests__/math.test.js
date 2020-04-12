@@ -12,7 +12,12 @@ describe("rectangleArea", () => {
 
 describe("circleArea", () => {
     it("returns the correct area", () => {
-        expect(circleArea(3)).toBe(28.27);
+        // arrange
+        // act
+        const area = Math.PI * Math.pow(3,2);
+
+        // assert
+        expect(circleArea(3)).toBe(area);
     });
 
     it("does not return strings", () => {
