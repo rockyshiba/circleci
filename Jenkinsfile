@@ -3,12 +3,12 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'npm i'
+                sh 'sudo npm i'
             }
         }
         stage('test') {
             steps {
-                sh 'npm run test'
+                sh 'sudo npm run test'
             }
         }
     }
