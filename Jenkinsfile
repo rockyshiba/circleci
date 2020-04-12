@@ -1,7 +1,12 @@
 pipeline {
-    agent { docker { image 'node:6.3' }}
+    agent { 
+        docker { 
+                image 'node:6.3'
+                args '-p 3000:3000' 
+            }
+        }
     environment {
-        HOME = '.'
+        CI = 'true'
     }
     stages {
         stage('build') {
